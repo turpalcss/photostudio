@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    
+</head>
+<body>
+ 
+    <div class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="navbar-navigation">
+                <div class="menu-btn" onclick="myFunction()">
+                   <a href="javascript:void(0);" class="menu-btn__burger"></a>
+                </div>
+                <div class="navbar-search">
+                   <a href=""><i class="fas fa-search"></i></a>
+                </div>
+                <div class="navbar-shop">
+                   <a href=""><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topnav active">
+            <div id="myLinks">
+    <a href="index.html">HOME</a>
+    <a href="products.html">PRODUCTS</a>
+    <a href="portfolio.html">PORTFOLIO</a>
+    <a href="about.html">ABOUT</a>
+  </div>
+    </div>
+    
+    
+    <div class="landing">
+        <div class="header">
+    <div class="header-content">
+        <div class="header-logo">
+           <a href="">
+            <img src="img/logo.png" width="200" height="120" alt="">
+            </a>
+        </div>
+        <div class="header-icon">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="header-nav">
+            <ul class="header-ul">
+                <li class="header-li" >
+                    <a href="index.html" class="header-a">HOME</a>
+                </li>
+                <li class="header-li">
+                    <a href="products.html" class="header-a active">PRODUCTS</a>
+                </li>
+                <li class="header-li">
+                    <a href="portfolio.html" class="header-a">PORTFOLIO</a>
+                </li>
+                <li class="header-li">
+                    <a href="about.html" class="header-a">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-footer">
+           <div class="header-footer-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+           </div>
+            <a href="" class="footer-btn">Upwork</a>
+            <p>Copyright © 2021 <span>Turpal Alikhadzhiev</span></p>
+        </div>
+    </div>
+       </div>
+       
+    
+       
+       <section class="products">
+           <div class="products-header">
+               <div class="header-products-content">
+                   <div class="header-products-nav">
+                       <span>PRODUCTS</span>
+                       <div class="products-filter">
+                           <p>Filter by:</p>
+                           <select>
+                        <option>All</option>
+                           </select>
+                       </div>
+                       <div class="products-sort">
+                           <p>Sort by:</p>
+                           <select>
+                        <option>Price, low to high</option>
+                          <option>Price, nigh to low</option>
+                          <option>Date, new to old</option>
+                          <option>Date, old to new</option>
+                          <option>Best selling</option>
+                           </select>
+                       </div>
+                   </div>
+                   <div class="header-products-repost">
+                       <div class="view-share" style="display: flex; padding-top: 0px;">
+                    <a href="" style="display: flex;">
+                     <i style="font-size: 18px; color: #9d9d9d; padding-right: 20px;" class="fas fa-share-alt"></i><p style="font-size: 15px; color: #9d8347;">Share this</p>
+                     </a>
+                    </div>
+                   </div>
+               </div>
+           </div>
+           
+
+
+
+
+         
+<div class="products-inner">
+    <div class="products-content">
+        <div class="grid">
+            <figure class="effect-ming"> <img src="img/qq.jpg" alt="img08" />
+                <figcaption>
+                    <p class="products-p">"KASIA", 2021</p>
+                    <p class="pro">$280.00</p> <a href="view.html">View more</a>
+                    </figcaption>
+            </figure>
+        </div>
+         <div class="grid">
+            <figure class="effect-ming"> <img src="img/dd.jpg" alt="img08" />
+                <figcaption class="figcaption">
+                    <p class="products-p">"KASIA", 2021</p>
+                    <p class="pro">$100.00</p> <a href="vieww.html">View more</a>
+                    </figcaption>
+            </figure>
+        </div>
+        
+         <div class="grid">
+            <figure class="effect-ming"> <img src="img/pa.jpg" alt="img08" />
+                <figcaption class="figcaption">
+                    <p class="products-p">"KASIA", 2021</p>
+                    <p class="pro">$70.00</p> <a href="viewww.html">View more</a>
+                    </figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+      
+      
+      
+      
+      
+       </section>
+    </div>
+    
+    
+    
+    
+    
+
+ <footer class="footer">
+         <div class="footer-content">
+             <div class="footer-text">
+             <div class="footer-i">
+                <div class="header-footer-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+           </div>
+             </div>
+             <div class="footer-btn">
+                 <a href="" >Upwork</a>
+             </div>
+            <p>Copyright © 2021 <span>Turpal Alikhadzhiev</span></p>
+        </div>
+         </div>
+ </footer>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+     <script src="js/main.js"></script>
+  
+</body>
+</html>
