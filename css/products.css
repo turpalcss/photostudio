@@ -335,7 +335,7 @@ figure.effect-ming:hover p {
     figure.effect-ming:hover:after {
     content: "";
     position: absolute;
-    top: 32%;
+    top: 38%;
     right: 40%;
     border-radius: 50px;
     width: 60px;
