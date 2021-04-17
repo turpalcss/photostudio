@@ -194,16 +194,7 @@ figure.effect-ming p {
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
 }
-figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 38%;
-    right: 40%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
 figure.effect-ming:hover .figcaption:after {
     content: "SOLD OUT";
     position: absolute;
@@ -257,16 +248,7 @@ figure.effect-ming:hover p {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: #7f7f7f;
 }
-    figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 21%;
-    right: 47.5%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
     figure.effect-ming figcaption::before {
         left: 30px;
         top: 30px;
@@ -332,16 +314,7 @@ figure.effect-ming:hover p {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: #7f7f7f;
 }
-    figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 38%;
-    right: 40%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
     figure.effect-ming figcaption::before {
         left: 30px;
         top: 30px;
@@ -369,16 +342,7 @@ figure.effect-ming:hover p {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: #7f7f7f;
 }
-    figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 21%;
-    right: 47.5%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
     figure.effect-ming figcaption::before {
         left: 30px;
         top: 30px;
@@ -438,7 +402,7 @@ figure.effect-ming:hover p {
 }
     .footer {
         position: relative;
-        bottom: -2193px;
+        bottom: -1750px;
     }
     
     .grid {
@@ -478,16 +442,7 @@ figure.effect-ming:hover p {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: #7f7f7f;
 }
-        figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 20%;
-    right: 46.5%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
     figure.effect-ming figcaption::before {
         left: 30px;
         top: 30px;
@@ -509,7 +464,7 @@ figure.effect-ming:hover p {
 }
     .footer {
         position: relative;
-        bottom: -2180px;
+        bottom: -1760px;
     }
 }
 
@@ -519,7 +474,7 @@ figure.effect-ming:hover p {
     }
     .footer {
     position: relative;
-    bottom: -990px;
+    bottom: -1208px;
 }
             figure.effect-ming:hover .figcaption:after {
     content: "SOLD OUT";
@@ -533,16 +488,7 @@ figure.effect-ming:hover p {
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
     background: #7f7f7f;
 }
-        figure.effect-ming:hover:after {
-    content: "";
-    position: absolute;
-    top: 36%;
-    right: 34%;
-    border-radius: 50px;
-    width: 60px;
-    height: 2px;
-    background: #7f7f7f;
-}
+
     figure.effect-ming figcaption::before {
         left: 30px;
         top: 30px;
