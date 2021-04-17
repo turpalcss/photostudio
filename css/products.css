@@ -347,7 +347,7 @@ figure.effect-ming:hover p {
         left: 30px;
         top: 30px;
         right: -5px;
-        bottom: -35px;
+        bottom: 0px;
     }
     .grid figure {
     position: relative;
@@ -447,7 +447,7 @@ figure.effect-ming:hover p {
         left: 30px;
         top: 30px;
         right: 0px;
-        bottom: -32px;
+        bottom: 0px;
     }
     .grid figure {
      position: relative;
