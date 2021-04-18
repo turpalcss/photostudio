@@ -344,6 +344,11 @@ html.is-animating .transition-fade {
 }
 
 /******************   media     media    *********************/
+@media screen and (max-width: 1133px) {
+    .header-footer p {
+        text-align: center;
+    }
+}
 @media screen and (min-width: 983px) {
     .footer {
         display: none;
