@@ -344,7 +344,7 @@ html.is-animating .transition-fade {
 }
 
 /******************   media     media    *********************/
-@media screen and (max-width: 1133px) {
+@media screen and (max-width: 1170px) {
     .header-footer p {
         text-align: center;
     }
